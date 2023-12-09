@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// A variable called "name" is created and set to equal "Dane"
+// Then a conditional is made that looks for "name" to equal "Mary" so that if the "name" variable is "Mary" she will be greeted -  
+// in the console as 'Hi, Mary!'
+// In this case, "name" = "Dane" therefore the "else" portion of the conditional will console.log 'How do you do?' 
 
 //CODE
 /*
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We start by creating an empty variable "secret" and another variable "code" set to equal 123.
+// The first conditional says if "code" is 123 (it is), "secret" will be assigned the string "super" and the code is multipied by 2.
+// The second conditional says if code is greater than 250, the variable 'secret' will change to "duper". At that point in the script "code " = 246, so this conditional will not change anything.
+// console.log(secret) should output super
 
 //CODE
 /*
@@ -70,10 +70,10 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// 3 variable are created. 'isStudent' is assigned the boolean true. "age" and "zip" are assigned numbers.
+// Compound conditionals are created check these variables and console.log a personalized message. Line 84 checks if the variables isStudent is true AND zip is greater than 80000
+// If not, line 86 checks if isStudent is false OR if age is less than 30. Line 88 checks if isStudent is true. If none of the "if" or "else if" statements are correct, the "else" will console.log 'How about the weather?'
+// In this case the first correct statement is line 88 and the only console.log that will run is console.log('Welcome to Prime!')
 
 //CODE
 /*
@@ -130,12 +130,16 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX colorOne = 'blue';
 let colorOne = 'red';
+// FIX colorTwo = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
+  // FIX type let before "colorOne"
   colorOne = 'purple';
+  // FIX add "let colorTwo = 'purple'
 }
 */
 
@@ -145,8 +149,10 @@ if (mix === true) {
 
 /*
 let temp = 40;
+// FIX time is described as a variable but is typed out as a constant. 'let' should be used instead of 'const'
 const time = 4;
 
+// FIX description states that the conditional is checking temp AND time. || is OR. && should replace ||
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -158,8 +164,10 @@ if (temp > 39 || time >= 4) {
 
 /*
 let age = 21;
+// FIX minAge is described as a variable, but is made into a constant. Replace 'const' with 'let'
 const minAge = 21;
 
+// FIX conditional is backwards. if minAge is less than or equal to age console.log('no entry') will run. I would fix this by changing <= to >=
 if(minAge <= age) {
   console.log('no entry');
 } else {
